@@ -1,0 +1,110 @@
+.searchPage__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__logo {
+  object-fit: contain;
+  height: 30px;
+  margin: 17px 45px 0 7px;
+}
+
+/* Overwriting the styles specified for the search component */
+.searchPage__headerbody > .search > .search__input {
+  margin-top: 8px;
+  width: unset;
+  max-width: unset;
+  padding: 13px;
+  width: 670px;
+}
+
+.searchPage__headerbody > .search > .search__input:hover {
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.searchPage__options .MuiSvgIcon-root {
+  font-size: 19px !important;
+}
+
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+  align-items: center;
+}
+
+.searchPage__optionsLeft a,
+.searchPage__optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage__optionsLeft {
+  margin-left: 20px;
+}
+
+.searchPage__optionsRight {
+  margin-left: 50px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.option a {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.searchPage__result {
+  margin: 30px 0;
+}
+
+.searchPage__resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage__results {
+  max-width: 600px;
+  margin-top: 10px;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+.searchPage__resultTitle {
+  text-decoration: none;
+}
+
+.searchPage__resultTitle > h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.searchPage__resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage__resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage__resultImage {
+  object-fit: contain;
+  height: 20x;
+  width: 20px;
+  margin-right: 10px;
+}
